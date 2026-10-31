@@ -1,13 +1,8 @@
----
+--krenelsu
 description: Similarities and differences between KernelSU and Magisk modules, covering the shared module format, boot scripts, and KernelSU-specific behavior.
----
-
 # Difference with Magisk
-
 Although KernelSU and Magisk modules have many similarities, there are inevitably some differences due to their completely different implementation mechanisms. If you want your module to work on both Magisk and KernelSU, it's essential to understand these differences.
-
 ## Similarities
-
 - Module file format: Both use the ZIP format to organize modules, and the module format is practically the same.
 - Module installation directory: Both are located at `/data/adb/modules`.
 - Systemless: Both support modifying `/system` in a systemless way through modules.
